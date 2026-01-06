@@ -68,7 +68,7 @@ $admin = $_SESSION['admin'] ?? null;
                     data-bs-toggle="modal"
                     data-bs-target="#loginModal">
                     <i class="fa fa-user"></i>
-                    <span>Account</span>
+                    <span>Login</span>
                 </button>
 
             <?php endif; ?>

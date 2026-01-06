@@ -134,7 +134,7 @@ $admin = $_SESSION['admin'] ?? null;
             <p>Please login to manage buses, routes, and schedules.</p>
 
             <div class="actions">
-                <a href="/login.php" class="btn btn-primary">🔐 Login</a>
+                <a href="/" class="btn btn-primary">🔐 Login</a>
             </div>
 
         <?php endif; ?>

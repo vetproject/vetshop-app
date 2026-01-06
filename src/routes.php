@@ -101,12 +101,15 @@ switch ($request) {
     case '/api/products':
         require __DIR__ . '/views/api/api_product.php';
         break;
+
     case '/api/categories':
         require __DIR__ . '/views/api/api_category.php';
         break;
+
     case '/api/buses':
         require __DIR__ . '/views/api/api_bus.php';
         break;
+
     case '/api/orders':
         require __DIR__ . '/views/api/api_order.php';
         break;

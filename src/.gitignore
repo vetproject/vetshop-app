@@ -1,0 +1,21 @@
+# Environment files
+.env
+
+# Docker
+docker/data/
+docker/mysql/data/
+
+# Vendor / dependencies
+vendor/
+node_modules/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

@@ -86,7 +86,6 @@ $bus = $_SESSION['admin'] ?? null;
                 </div>
             </header>
 
-
             <!-- Page Content -->
             <main class="content">
                 <?php include $contentFile; ?>
