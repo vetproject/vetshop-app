@@ -9,7 +9,7 @@ $method = $_SERVER['REQUEST_METHOD'];
 try {
 
     // =========================
-    // GET /api/v1/buses
+    // GET /api/buses
     // =========================
     if ($method === 'GET') {
         echo json_encode([
@@ -20,7 +20,7 @@ try {
     }
 
     // =========================
-    // POST /api/v1/buses
+    // POST /api/buses
     // =========================
     if ($method === 'POST') {
         $data = json_decode(file_get_contents('php://input'), true);
@@ -42,7 +42,7 @@ try {
     }
 
     // =========================
-    // PUT /api/v1/buses
+    // PUT /api/buses
     // =========================
     if ($method === 'PUT') {
         $data = json_decode(file_get_contents('php://input'), true);
@@ -64,7 +64,7 @@ try {
     }
 
     // =========================
-    // DELETE /api/v1/buses?id=1
+    // DELETE /api/buses?id=1
     // =========================
     if ($method === 'DELETE') {
         if (!isset($_GET['id'])) {

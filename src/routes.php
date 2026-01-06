@@ -51,7 +51,7 @@ $autoRefreshRoutes = [
 // 📌 Router
 switch ($request) {
 
-    // Public Routes
+    // WEB Routes
     case '/':
     case '/home':
         require __DIR__ . '/views/pages/home.php';
@@ -92,6 +92,7 @@ switch ($request) {
     case '/view_cart':
         require __DIR__ . '/views/pages/view_cart.php';
         break;
+        
     case '/checkout':
         require __DIR__ . '/views/pages/checkout.php';
         break;

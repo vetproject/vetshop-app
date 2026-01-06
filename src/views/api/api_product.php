@@ -11,6 +11,7 @@ try {
     // =========================
     // GET /api/products
     // =========================
+    
     if ($method === 'GET') {
         echo json_encode([
             "status" => true,
@@ -22,6 +23,7 @@ try {
     // =========================
     // POST /api/products
     // =========================
+
     if ($method === 'POST') {
         $data = json_decode(file_get_contents('php://input'), true);
 
@@ -50,6 +52,7 @@ try {
     // =========================
     // PUT /apiproducts
     // =========================
+
     if ($method === 'PUT') {
         $data = json_decode(file_get_contents('php://input'), true);
 
@@ -72,6 +75,7 @@ try {
     // =========================
     // DELETE /api/products?id=1
     // =========================
+
     if ($method === 'DELETE') {
         $id = $_GET['id'] ?? null;
 

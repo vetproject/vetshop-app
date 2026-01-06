@@ -17,8 +17,8 @@ try {
 
     /* =========================
        GET
-       - /api/v1/orders
-       - /api/v1/orders?id=1
+       - /api/orders
+       - /api/orders?id=1
     ========================= */
     if ($method === 'GET') {
 
